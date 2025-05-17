@@ -8,6 +8,10 @@
   @apply text-[19px] font-semibold text-lg leading-tight hover:text-cyan-500 duration-400 transition-colors;
 }
 
+@utility btn {
+  @apply bg-cyan-500 text-white font-semibold text-lg leading-tight px-4 py-2 rounded-full shadow-md hover:bg-cyan-600 duration-400 transition-colors active:scale-95;
+}
+
 @layer base {
   html {
     @apply bg-white;
